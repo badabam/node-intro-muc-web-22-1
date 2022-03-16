@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:3000/api
+
+### GET /catchall
+GET {{baseUrl}}/catchall
+
+### GET /episodes
+GET {{baseUrl}}/episodes
+
+### POST /episodes
+POST {{baseUrl}}/episodes
+Content-Type: application/json
+
+{
+  "title": "Some episode title",
+  "description": "This is a description"
+}
+
+### GET /places
+GET {{baseUrl}}/places
+
+### GET /types
+GET {{baseUrl}}/types

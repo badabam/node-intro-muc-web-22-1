@@ -1,6 +1,10 @@
 
 const [nodePath, filePath, firstNumberString, secondNumberString] = process.argv;
 
+
+console.log('ENV var TEST', process.env.TEST)
+
+
 const firstNumber = Number(firstNumberString);
 const secondNumber = Number(secondNumberString);
 
