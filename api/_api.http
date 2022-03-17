@@ -1,7 +1,11 @@
 @baseUrl = http://localhost:3000/api
 
-### GET /catchall
-GET {{baseUrl}}/catchall
+### GET index
+GET {{baseUrl}}
+
+### GET /this-path-does-not-exist
+GET {{baseUrl}}/this-path-does-not-exist
+
 
 ### GET /episodes
 GET {{baseUrl}}/episodes
